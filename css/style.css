@@ -248,7 +248,7 @@ body {
   margin-bottom: 80px;
 }
 .tabs li {
-  margin-right: 27px;
+  margin-right: 24px;
   cursor: pointer;
   color: var(--black);
 }
@@ -671,6 +671,13 @@ footer input {
 
 /* cover */
 @media (max-width: 400px) {
+  .tabs {
+    padding: 0;
+    margin: 61px auto;
+  }
+  .tabs li {
+    margin-right: 21px;
+  }
   .caption {
     width: 100%;
     transform: translate(0, 0);
@@ -682,6 +689,10 @@ footer input {
     font-size: 29px;
   }
   .caption-info a:nth-of-type(2) {
-    padding: 10px 27px;
+    padding: 14px 13px;
+    font-size: 12px;
+  }
+  .caption-info p {
+    padding: 18px 0;
   }
 }
