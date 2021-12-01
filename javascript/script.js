@@ -45,5 +45,3 @@ tabsarray.forEach((item) => {
     document.querySelector(e.currentTarget.dataset.con).style.display = "block";
   });
 });
-
-// han tsk
